@@ -1,0 +1,26 @@
+.characters-container{
+    display: flex;
+}
+.character-thumbnail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.character-img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.selected-character{
+    background-color: #2a6dd2;
+    border-radius: 6px;
+    color: white;
+}
+input[type="button"]{
+    padding: 5px 15px;
+    background-color: #2a6dd2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
